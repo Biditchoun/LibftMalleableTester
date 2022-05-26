@@ -7,3 +7,4 @@ Some perks of using this one :
 Limitations :
 - Idk how to use file descriptors nor how to check the size of a malloc.
 - If a test provokes a bus error or a segfault, you will have to search for it by yourself by fiddling with the tester.
+- The tester segfaults when your function sends back NULL instead of something else, since it will try to use NULL in strcmp
