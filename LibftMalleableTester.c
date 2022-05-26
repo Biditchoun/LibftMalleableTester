@@ -6,7 +6,7 @@
 /*   By: swijnber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 22:59:50 by swijnber          #+#    #+#             */
-/*   Updated: 2022/05/09 16:20:32 by swijnber         ###   ########.fr       */
+/*   Updated: 2022/05/26 20:18:51 by swijnber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -1079,6 +1079,20 @@ int	main()
 	}
 	bzero(b0, 30);
 	strlcpy(b0, " -2147483648", 30);
+	if (atoi(b0) != ft_atoi(b0))
+	{
+		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
+		return (1);
+	}
+	bzero(b0, 30);
+	strlcpy(b0, " -000000000000000000123456789", 30);
+	if (atoi(b0) != ft_atoi(b0))
+	{
+		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
+		return (1);
+	}
+	bzero(b0, 30);
+	strlcpy(b0, " 00000000000000000000123456789", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
