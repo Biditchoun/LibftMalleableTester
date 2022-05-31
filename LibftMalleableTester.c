@@ -6,7 +6,7 @@
 /*   By: swijnber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 22:59:50 by swijnber          #+#    #+#             */
-/*   Updated: 2022/05/31 07:38:36 by swijnber         ###   ########.fr       */
+/*   Updated: 2022/05/31 11:21:15 by swijnber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -962,21 +962,21 @@ int	main()
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -1", 30);
+	strlcpy(b0, " -1aa", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -0", 30);
+	strlcpy(b0, " -0bb", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " +1", 30);
+	strlcpy(b0, " +1cc", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
@@ -990,119 +990,119 @@ int	main()
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 19489384723948723948", 30);
+	strlcpy(b0, " 19489384723948723948dd", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -19489384723948723948", 30);
+	strlcpy(b0, " -19489384723948723948ee", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 9223372036854775809", 30);
+	strlcpy(b0, " 9223372036854775809ff", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -9223372036854775809", 30);
+	strlcpy(b0, " -9223372036854775809gg", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 9223372036854775808", 30);
+	strlcpy(b0, " 9223372036854775808hh", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -9223372036854775808", 30);
+	strlcpy(b0, " -9223372036854775808ii", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 9223372036854775807", 30);
+	strlcpy(b0, " 9223372036854775807jj", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -9223372036854775807", 30);
+	strlcpy(b0, " -9223372036854775807kk", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 9223372036854775806", 30);
+	strlcpy(b0, " 9223372036854775806ll", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -9223372036854775806", 30);
+	strlcpy(b0, " -9223372036854775806mm", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 1313131313131313", 30);
+	strlcpy(b0, " 1313131313131313nn", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -1313131313131313", 30);
+	strlcpy(b0, " -1313131313131313oo", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -2147483649", 30);
+	strlcpy(b0, " -2147483649pp", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 2147483648", 30);
+	strlcpy(b0, " 2147483648qq", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -2147483648", 30);
+	strlcpy(b0, " -2147483648rr", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " -000000000000000000123456789", 30);
+	strlcpy(b0, " -000000000000000000123456789ss", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
 		return (1);
 	}
 	bzero(b0, 30);
-	strlcpy(b0, " 00000000000000000000123456789", 30);
+	strlcpy(b0, " 00000000000000000000123456789tt", 30);
 	if (atoi(b0) != ft_atoi(b0))
 	{
 		printf (" KO\nTest : \"%s\"\natoi = %i, ft_atoi = %i\n", b0, atoi(b0), ft_atoi(b0));
