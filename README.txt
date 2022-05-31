@@ -1,4 +1,4 @@
-So uh, I kinda made a libfttester. It is quite complete, with its own limitations. It will test all the madatory functions of the libft.
+So uh, I kinda made a libfttester. It is quite complete, with its own limitations. It will test all the mandatory functions of the libft project of the 42 school program.
 To use it, put the tester's .c file in your libft folder, run make, and "gcc [tester].c libft.a && ./a.out" (or "gcc *.c && ./a.out" if your makefile is not ready).
 
 Some perks of using this one :
