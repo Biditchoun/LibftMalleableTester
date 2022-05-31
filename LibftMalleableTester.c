@@ -6,7 +6,7 @@
 /*   By: swijnber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 22:59:50 by swijnber          #+#    #+#             */
-/*   Updated: 2022/05/26 20:18:51 by swijnber         ###   ########.fr       */
+/*   Updated: 2022/05/31 07:38:36 by swijnber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -790,6 +790,16 @@ int	main()
 	if (memcmp(memchr(s2, '3' + 256, 3), ft_memchr(s2, '3' + 256, 3), 3))
 	{
 		printf("KO\nParams : s2, '3' + 256, 3\nmemchr = %s\nft_memchr = %s\n", memchr(s2, '3' + 256, 3), ft_memchr(s2, '3' + 256, 3));
+		return (1);
+	}
+	if (ft_memchr(s4, 'J', 0))
+	{
+		printf (" KO\nParams : s4, 'J', 0\nmemchr = NULL\nft_memchr = %s\n", ft_memchr(s4, 'J', 0));
+		return (1);
+	}
+	if (ft_memchr(s2, 0, 0))
+	{
+		printf (" KO\nParams : s2, 0, 0\nmemchr = NULL\nft_memchr = %s\n", ft_memchr(s2, 0, 0));
 		return (1);
 	}
 	//memcmp
